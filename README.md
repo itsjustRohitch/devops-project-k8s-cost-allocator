@@ -1,7 +1,7 @@
 # Kubernetes Cluster Cost Allocator
 
 Student Name: Rohit
-Registration No: [Your Registration Number]
+Registration No: 23FE10CSE00596
 Course: CSE3253 DevOps [PE6]
 Semester: VI (2025-2026)
 Project Type: DevOps & Kubernetes Orchestration
