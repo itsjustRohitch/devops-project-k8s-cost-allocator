@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cost-allocator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cost-allocator
+  template:
+    metadata:
+      labels:
+        app: cost-allocator
+    spec:
+      containers:
+      - name: cost-allocator
+        image: devops-project-k8s-cost-allocator:latest
+        imagePullPolicy: Never
+        envFrom:
+        - configMapRef:
+            name: allocator-config
+        env:
+        - name: POSTGRES_USER
+          value: "devopsuser"
+        - name: POSTGRES_PASSWORD
+          value: "devopspass"

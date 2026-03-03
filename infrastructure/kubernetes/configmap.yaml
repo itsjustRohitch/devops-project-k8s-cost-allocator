@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: allocator-config
+data:
+  DB_HOST: "postgres-service"
+  POSTGRES_DB: "devopsdb"

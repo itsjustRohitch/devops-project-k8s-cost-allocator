@@ -1,0 +1,11 @@
+groups:
+- name: CostAllocationAlerts
+  rules:
+  - alert: HighNamespaceCost
+    expr: sum(cpu_cost + memory_cost) by (namespace) > 50
+    for: 1h
+    labels:
+      severity: warning
+    annotations:
+      summary: "High resource cost detected for namespace {{ $labels.namespace }}"
+      description: "Cost exceeded $50 in the last hour."

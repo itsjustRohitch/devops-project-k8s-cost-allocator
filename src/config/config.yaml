@@ -1,0 +1,4 @@
+# src/config/config.yaml
+pricing:
+  cpu_core_per_hour: 0.0316
+  memory_gb_per_hour: 0.0042
