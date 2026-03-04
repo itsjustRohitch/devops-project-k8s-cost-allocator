@@ -54,8 +54,8 @@ This architecture simulates **cost attribution systems used in enterprise Kubern
 │   └── demo-video/                # Final submission artifacts
 │
 ├── docs/
-│   ├── architecture.md            # System design
-│   ├── user-guide.md              # Usage documentation
+│   ├── architecture/ Images
+│   ├── Screenshots/  Images          
 │   └── planning.md                # Project planning
 │
 ├── infrastructure/
@@ -68,8 +68,7 @@ This architecture simulates **cost attribution systems used in enterprise Kubern
 │       └── configmap.yaml         # Configuration injection
 │
 ├── monitoring/
-│   ├── alerts.yaml                # Alert rules
-│   └── dashboards.json            # Monitoring dashboards
+│   └── alerts.yaml                # Alert rules
 │
 ├── scripts/
 │   └── init.sql                   # Database initialization
