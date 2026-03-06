@@ -1,5 +1,12 @@
 # Kubernetes Cost Allocator
 
+Student Name: Chinta Sri Durga Rohit  
+Registration No: 23FE01CSE00596  
+Course: CSE3253 DevOps [PE6]  
+Semester: VI (2025-2026)  
+Project Type: Docker/K8s  
+Difficulty: Intermediate
+
 A **DevOps-oriented system** that extracts Kubernetes namespace resource utilization, calculates associated infrastructure costs using predefined pricing models, and persists the results into a PostgreSQL database.  
 
 The project demonstrates practical implementation of:
@@ -86,7 +93,8 @@ This architecture simulates **cost attribution systems used in enterprise Kubern
 │
 ├── docker-compose.yml             # Local orchestration configuration
 ├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
+├── README.md                      # Project documentation
+└── LICENSE                        # Project License
 
 ````
 
